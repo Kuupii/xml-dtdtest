@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hmdc_records SYSTEM "hmdc_records.dtd">
+
+<hmdc_records>
+
+    <hmdc_record>
+        <client_identifier>P100245</client_identifier>
+        <principal_diagnosis>S06.23</principal_diagnosis>
+        <admission>
+            <account_number>A20241001-001</account_number>
+            <admission_date>01/10/2024</admission_date>
+            <admission_time>09:15</admission_time>
+            <admission_status>6</admission_status>
+            <ward>Ward A - Bed 12</ward>
+            <clinician_on_admission>MED0000010094</clinician_on_admission>
+            <specialty_of_clinician_on_admission>11</specialty_of_clinician_on_admission>
+            <intended_length_of_stay>1</intended_length_of_stay>
+            <care_type>21</care_type>
+            <accommodation_occupied>2</accommodation_occupied>
+        </admission>
+        <surgical_procedure>
+            <principal_procedure>35503-00</principal_procedure>
+            <date_of_procedure>01/10/2024</date_of_procedure>
+            <clinician_performing_procedure>MED0001534233</clinician_performing_procedure>
+        </surgical_procedure>
+        <separation_discharge>
+            <separation_date>01/10/2024</separation_date>
+            <separation_time>15:45</separation_time>
+            <mode_of_separation>9</mode_of_separation>
+            <clinician_on_separation>MED0000010094</clinician_on_separation>
+            <specialty_of_clinician_on_separation>11</specialty_of_clinician_on_separation>
+        </separation_discharge>
+    </hmdc_record>
+
+</hmdc_records>

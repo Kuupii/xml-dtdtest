@@ -1,0 +1,62 @@
+<!-- Lakes Medical Surgery DTD Document -->
+<!ELEMENT hmdc_records (hmdc_record+)>
+
+<!ELEMENT hmdc_record (
+    client_identifier,
+    principal_diagnosis,
+    admission,
+    surgical_procedure?,
+    separation_discharge
+)>
+
+<!ELEMENT client_identifier (#PCDATA)>
+
+<!ELEMENT principal_diagnosis (#PCDATA)>
+
+<!ELEMENT admission (
+    account_number,
+    admission_date,
+    admission_time,
+    admission_status,
+    ward,
+    clinician_on_admission,
+    specialty_of_clinician_on_admission,
+    intended_length_of_stay,
+    care_type,
+    accommodation_occupied
+)>
+
+<!ELEMENT account_number (#PCDATA)>
+<!ELEMENT admission_date (#PCDATA)>
+<!ELEMENT admission_time (#PCDATA)>
+<!ELEMENT admission_status (#PCDATA)>
+<!ELEMENT ward (#PCDATA)>
+<!ELEMENT clinician_on_admission (#PCDATA)>
+<!ELEMENT specialty_of_clinician_on_admission (#PCDATA)>
+<!ELEMENT intended_length_of_stay (#PCDATA)>
+<!ELEMENT care_type (#PCDATA)>
+<!ELEMENT accommodation_occupied (#PCDATA)>
+
+<!ELEMENT surgical_procedure (
+    principal_procedure?,
+    date_of_procedure?,
+    clinician_performing_procedure?
+)>
+
+<!ELEMENT principal_procedure (#PCDATA)>
+<!ELEMENT date_of_procedure (#PCDATA)>
+<!ELEMENT clinician_performing_procedure (#PCDATA)>
+
+<!ELEMENT separation_discharge (
+    separation_date,
+    separation_time,
+    mode_of_separation, 
+    clinician_on_separation,
+    specialty_of_clinician_on_separation
+)>
+
+<!ELEMENT separation_date (#PCDATA)>
+<!ELEMENT separation_time (#PCDATA)>
+<!ELEMENT mode_of_separation (#PCDATA)>
+<!ELEMENT clinician_on_separation (#PCDATA)>
+<!ELEMENT specialty_of_clinician_on_separation (#PCDATA)>

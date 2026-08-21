@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE patientRecords SYSTEM "patient_records_test.dtd">
+<!DOCTYPE patient_records SYSTEM "patient_records.dtd">
 <patient_records>
 
     <patient>

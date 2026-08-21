@@ -1,0 +1,60 @@
+<!-- Lakes Medical Surgery DTD Document -->
+
+<!ELEMENT patient_records (patient+)>
+
+<!ELEMENT patient (
+    client_identifier,
+    person,
+    medicare,
+    patient_address
+)>
+
+<!ELEMENT client_identifier (#PCDATA)>
+
+<!ELEMENT person (
+    Client_photo,
+    Client_voice_signature,
+    first_forename,
+    second_forename?,
+    surname,
+    date_of_birth,
+    indigenous_status,
+    country_of_birth,
+    employment_status,
+    marital_status,
+    Sex_code,
+    language
+)>
+
+<!ELEMENT Client_photo (#PCDATA)>
+<!ELEMENT Client_voice_signature (#PCDATA)>
+<!ELEMENT first_forename (#PCDATA)>
+<!ELEMENT second_forename (#PCDATA)>
+<!ELEMENT surname (#PCDATA)>
+<!ELEMENT date_of_birth (#PCDATA)>
+<!ELEMENT indigenous_status (#PCDATA)>
+<!ELEMENT country_of_birth (#PCDATA)>
+<!ELEMENT employment_status (#PCDATA)>
+<!ELEMENT marital_status (#PCDATA)>
+<!ELEMENT Sex_code (#PCDATA)>
+<!ELEMENT language (#PCDATA)>
+
+<!ELEMENT medicare (
+    medicare_card_number,
+    medicare_person_number,
+    insurance_status
+)>
+
+<!ELEMENT medicare_card_number (#PCDATA)>
+<!ELEMENT medicare_person_number (#PCDATA)>
+<!ELEMENT insurance_status (#PCDATA)>
+
+<!ELEMENT patient_address (
+    residential_address,
+    postcode,
+    state_or_territory
+)>
+
+<!ELEMENT residential_address (#PCDATA)>
+<!ELEMENT postcode (#PCDATA)>
+<!ELEMENT state_or_territory (#PCDATA)>
