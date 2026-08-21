@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE patientRecords SYSTEM "patient_records_test.dtd">
+<patient_records>
+
+    <patient>
+        <client_identifier>P100245</client_identifier>
+        <person>
+            <Client_photo>testPhoto1</Client_photo>
+            <Client_voice_signature>testVoice1</Client_voice_signature>
+            <first_forename>John</first_forename>
+            <second_forename>Michael</second_forename>
+            <surname>Smith</surname>
+            <date_of_birth>15/04/1955</date_of_birth>
+            <indigenous_status>4</indigenous_status>
+            <country_of_birth>0905</country_of_birth>
+            <employment_status>6</employment_status>
+            <marital_status>5</marital_status>
+            <Sex_code>1</Sex_code>
+            <language>1201</language>
+        </person>
+        <medicare>
+            <medicare_card_number>1234567890</medicare_card_number>
+            <medicare_person_number>1</medicare_person_number>
+            <insurance_status>1</insurance_status>
+        </medicare>
+        <patient_address>
+            <residential_address>10 Lake Street</residential_address>
+            <postcode>6000</postcode>
+            <state_or_territory>5</state_or_territory>
+        </patient_address>
+    </patient>
+
+</patient_records>
